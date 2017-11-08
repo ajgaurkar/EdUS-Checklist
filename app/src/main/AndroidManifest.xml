@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.maakservices.saipc.mschecklist">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_edus"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.maakservices.saipc.mschecklist.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.maakservices.saipc.mschecklist.Activities.PreDepartureCheckList"
+            android:label="Pre-departure"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservices.saipc.mschecklist.Activities.UponArrivalCheckList"
+            android:label="Upon-Arrival"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservices.saipc.mschecklist.Activities.Preferences"
+            android:label="Preferences"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservices.saipc.mschecklist.TestClassIntent"
+            android:label="Preferences"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.maakservices.saipc.mschecklist.Activities.Trash"
+            android:label="Trash"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.maakservices.saipc.mschecklist.Activities.privacy_policy"
+            android:label="Trash"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

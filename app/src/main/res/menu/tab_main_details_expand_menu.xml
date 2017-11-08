@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab_list_detail_expand"
+        android:icon="@drawable/expand_down_48"
+        android:title="Share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tab_share_list"
+        android:icon="@drawable/share_28"
+        android:title="Share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/tab_add_item"
+        android:icon="@drawable/plus_40"
+        android:title="Add"
+        app:showAsAction="always" />
+
+</menu>
+
+

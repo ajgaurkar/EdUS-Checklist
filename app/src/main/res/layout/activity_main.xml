@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/libert_blue_blur"
+    android:orientation="vertical"
+    android:weightSum="9">
+
+    <RelativeLayout
+        android:id="@+id/appIconSplashLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="50dp"
+            android:src="@drawable/edus_png_1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottomSelectionRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:padding="5dp">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/preferencesTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/view1"
+            android:layout_toStartOf="@+id/view1">
+
+            <ImageView
+                android:id="@+id/preDepartureImageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/dash_button_selector"
+                android:padding="10dp"
+                android:src="@drawable/airplane_takeoff_96" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/preDepartureImageView"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Pre-Departure"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/preferencesTextView"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/view1"
+            android:layout_toRightOf="@+id/view1">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/postDepartureImageView"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Upon-Arrival"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/postDepartureImageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/dash_button_selector"
+                android:padding="15dp"
+                android:src="@drawable/airplane_landing_96" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/preferencesTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:text="Preferences"
+            android:background="@drawable/dash_pref_btn_bg"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:background="#353535"/>-->
+    <RelativeLayout
+        android:id="@+id/listItemTopLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/priorityTextView"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/priority_high_text_bg"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="#ff7b59"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/statusCheckBoxImageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/unchecked_64" />
+
+        <TextView
+            android:id="@+id/itemNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/priorityTextView"
+            android:layout_toLeftOf="@+id/statusCheckBoxImageView"
+            android:layout_toRightOf="@+id/priorityTextView"
+            android:layout_toStartOf="@+id/statusCheckBoxImageView"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:padding="5dp"
+            android:text="Immunization form"
+            android:textColor="@color/colorTextDark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/listItemBottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listItemTopLayout"
+        android:layout_marginTop="-15dp"
+        android:paddingBottom="0dp">
+
+        <TextView
+            android:id="@+id/listItemAlarmTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="end"
+            android:padding="2dp"
+            android:text="12 Jan 16\n14:40"
+            android:textColor="@color/colorAccentPink" />
+
+        <TextView
+            android:id="@+id/listItemDetailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="32dp"
+            android:layout_toLeftOf="@+id/listItemAlarmTextView"
+            android:layout_toStartOf="@+id/listItemAlarmTextView"
+            android:text="Immnization form has to be sub,mitted to the university in person" />
+    </RelativeLayout>
+    <!--<View-->
+    <!--android:id="@+id/separator_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="10dp"-->
+    <!--android:background="@color/colorAccent"-->
+</RelativeLayout>

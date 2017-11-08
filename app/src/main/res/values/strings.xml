@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EdUS</string>
+    //OLD
+    <!--<string name="msChecklistBanner">ca-app-pub-1545525873082095/4805832966</string>-->
+
+    //NEW
+    <string name="msChecklistBanner">ca-app-pub-4755941947780058/2939539729</string>
+    <string name="msChecklistInterstitial">ca-app-pub-4755941947780058/4743370121</string>
+
+    <string name="edus_banner">ca-app-pub-1545525873082095/4417888561</string>
+    <string name="edusinterstitial">ca-app-pub-1545525873082095/2801554561</string>
+
+
+
+
+    //DUMMY
+    <!--<string name="msChecklistBanner">47285</string>-->
+
+
+    <string name="app_share_payload">Hey! checkout this app.
+EdUS checklist V 1.0(Beta).
+Useful checklist for students going to USA.
+
+    </string>
+
+</resources>

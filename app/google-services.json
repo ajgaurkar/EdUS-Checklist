@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "167987352162",
+    "firebase_url": "https://edus-1b88e.firebaseio.com",
+    "project_id": "edus-1b88e",
+    "storage_bucket": "edus-1b88e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167987352162:android:bd001396d2f66051",
+        "android_client_info": {
+          "package_name": "com.maakservices.saipc.mschecklist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167987352162-10k7ftbntkvq7n1a716sujpvdi6vbm32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDow50VpFYi4lMRJh9a9eRCxSwwsalJlV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
