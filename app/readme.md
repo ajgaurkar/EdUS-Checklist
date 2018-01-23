@@ -1,1 +1,1 @@
-<img src="app/unnamedGVKBBZ70.png"
+<img src="unnamedGVKBBZ70.png">
